@@ -15,6 +15,13 @@
 		4A6C7C3629BADEE00044FF44 /* ftvPoints_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C3529BADEE00044FF44 /* ftvPoints_Watch_AppTests.swift */; };
 		4A6C7C4029BADEE00044FF44 /* ftvPoints_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C3F29BADEE00044FF44 /* ftvPoints_Watch_AppUITests.swift */; };
 		4A6C7C4229BADEE00044FF44 /* ftvPoints_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C4129BADEE00044FF44 /* ftvPoints_Watch_AppUITestsLaunchTests.swift */; };
+		4A6C7C5729BADF1F0044FF44 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C5629BADF1F0044FF44 /* GameView.swift */; };
+		4A6C7C5E29BADF550044FF44 /* HomeTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C5D29BADF550044FF44 /* HomeTeamView.swift */; };
+		4A6C7C6029BADF620044FF44 /* AwayTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C5F29BADF620044FF44 /* AwayTeamView.swift */; };
+		4A6C7C6229BADF6D0044FF44 /* ListHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C6129BADF6D0044FF44 /* ListHistoryView.swift */; };
+		4A6C7C6429BADF8E0044FF44 /* TimeFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C6329BADF8E0044FF44 /* TimeFormatting.swift */; };
+		4A6C7C6629BADF9A0044FF44 /* ControleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C6529BADF9A0044FF44 /* ControleData.swift */; };
+		4A6C7C6929BADFD80044FF44 /* JogosModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A6C7C6729BADFD80044FF44 /* JogosModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +74,13 @@
 		4A6C7C3B29BADEE00044FF44 /* ftvPoints Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ftvPoints Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6C7C3F29BADEE00044FF44 /* ftvPoints_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ftvPoints_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		4A6C7C4129BADEE00044FF44 /* ftvPoints_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ftvPoints_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A6C7C5629BADF1F0044FF44 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		4A6C7C5D29BADF550044FF44 /* HomeTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTeamView.swift; sourceTree = "<group>"; };
+		4A6C7C5F29BADF620044FF44 /* AwayTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwayTeamView.swift; sourceTree = "<group>"; };
+		4A6C7C6129BADF6D0044FF44 /* ListHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHistoryView.swift; sourceTree = "<group>"; };
+		4A6C7C6329BADF8E0044FF44 /* TimeFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFormatting.swift; sourceTree = "<group>"; };
+		4A6C7C6529BADF9A0044FF44 /* ControleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControleData.swift; sourceTree = "<group>"; };
+		4A6C7C6829BADFD80044FF44 /* JogosModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JogosModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +133,13 @@
 			isa = PBXGroup;
 			children = (
 				4A6C7C2429BADEDF0044FF44 /* ftvPointsApp.swift */,
+				4A6C7C5529BADEFE0044FF44 /* Dados Model */,
+				4A6C7C5229BADEE70044FF44 /* Helper */,
 				4A6C7C2629BADEDF0044FF44 /* ContentView.swift */,
+				4A6C7C5629BADF1F0044FF44 /* GameView.swift */,
+				4A6C7C5D29BADF550044FF44 /* HomeTeamView.swift */,
+				4A6C7C5F29BADF620044FF44 /* AwayTeamView.swift */,
+				4A6C7C6129BADF6D0044FF44 /* ListHistoryView.swift */,
 				4A6C7C2829BADEDF0044FF44 /* Assets.xcassets */,
 				4A6C7C2A29BADEDF0044FF44 /* Preview Content */,
 			);
@@ -149,6 +169,23 @@
 				4A6C7C4129BADEE00044FF44 /* ftvPoints_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "ftvPoints Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		4A6C7C5229BADEE70044FF44 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7C6329BADF8E0044FF44 /* TimeFormatting.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4A6C7C5529BADEFE0044FF44 /* Dados Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A6C7C6529BADF9A0044FF44 /* ControleData.swift */,
+				4A6C7C6729BADFD80044FF44 /* JogosModel.xcdatamodeld */,
+			);
+			path = "Dados Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,8 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6C7C5E29BADF550044FF44 /* HomeTeamView.swift in Sources */,
+				4A6C7C6429BADF8E0044FF44 /* TimeFormatting.swift in Sources */,
 				4A6C7C2729BADEDF0044FF44 /* ContentView.swift in Sources */,
+				4A6C7C5729BADF1F0044FF44 /* GameView.swift in Sources */,
 				4A6C7C2529BADEDF0044FF44 /* ftvPointsApp.swift in Sources */,
+				4A6C7C6629BADF9A0044FF44 /* ControleData.swift in Sources */,
+				4A6C7C6929BADFD80044FF44 /* JogosModel.xcdatamodeld in Sources */,
+				4A6C7C6029BADF620044FF44 /* AwayTeamView.swift in Sources */,
+				4A6C7C6229BADF6D0044FF44 /* ListHistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +518,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ftvPoints;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,6 +549,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = ftvPoints;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -688,6 +734,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A6C7C6729BADFD80044FF44 /* JogosModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A6C7C6829BADFD80044FF44 /* JogosModel.xcdatamodel */,
+			);
+			currentVersion = 4A6C7C6829BADFD80044FF44 /* JogosModel.xcdatamodel */;
+			path = JogosModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4A6C7C1329BADEDE0044FF44 /* Project object */;
 }
